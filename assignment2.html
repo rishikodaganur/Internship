@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Assignment-2</title>
+   <style>
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, white, white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 30px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 25px 0;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    .card ul li {
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+   </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="card"><h2>Web Development Program</h2>
+            <ul>
+                <li>Duration: 1/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend:-</li>
+                <li>Start date: 16/06/2025</li>
+            </ul>
+            <a href="https://www.vaultofcodes.in/courses" class="btn" target="_blank"> View details</a >
+        </div>
+        <div class="card">
+            <h2>App Development Internship Program</h2>
+             <ul>
+                <li>Duration: 1/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend:-</li>
+                <li>Start date: 16/06/2025</li>
+            </ul>
+            <a href="https://www.vaultofcodes.in/courses" class="btn" target="_blank"> View details</a>
+        </div>
+        <div class="card">
+            <h2>Python Programming Internship Program</h2>
+             <ul>
+                <li>Duration: 1/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend:-</li>
+                <li>Start date: 16/06/2025</li>
+            </ul>
+            <a href="https://www.vaultofcodes.in/courses" class="btn" target="_blank"> View details</a>
+        </div>
+        <div class="card">
+            <h2>Java Programming Internship Program</h2>
+             <ul>
+                <li>Duration: 1/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend:-</li>
+                <li>Start date: 16/06/2025</li>
+            </ul>
+            <a href="https://www.vaultofcodes.in/courses" class="btn" target="_blank"> View details</a>
+        </div>
+        </div>
+
+    
+</body>
+</html>
