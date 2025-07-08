@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #4f46e5;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart button {
+  background-color: white;
+  color: #4f46e5;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
+
+#product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain; 
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9; 
+  padding: 8px;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #4f46e5;
+  font-weight: bold;
+}
+
+.add-btn {
+  margin-top: 0.8rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f5f9;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
